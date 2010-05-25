@@ -66,7 +66,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General substitutions.
-project = 'example-project'
+project = 'PROJECTNAME'
 #copyright = ':ref:`2005-2010, Neuroimaging in Python team. <nipy-software-license>`' 
 copyright = '2005-2010, Neuroimaging in Python team' 
 
@@ -111,15 +111,19 @@ pygments_style = 'sphinx'
 
 # Options for HTML output
 # -----------------------
+#
+# The theme to use for HTML and HTML Help pages.  Major themes that come with
+# Sphinx are currently 'default' and 'sphinxdoc'.
+html_theme = 'sphinxdoc'
 
 # The style sheet to use for HTML and HTML Help pages. A file of that name
 # must exist either in Sphinx' static/ path, or in one of the custom paths
 # given in html_static_path.
-html_style = 'example-project.css'
+html_style = 'PROJECTNAME.css'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'NIPY Documentation'
+html_title = 'PROJECTNAME Documentation'
 
 # The name of an image file (within the static path) to place at the top of
 # the sidebar.

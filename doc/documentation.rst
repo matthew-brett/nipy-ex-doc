@@ -1,6 +1,8 @@
-======================
- Nitime Documentation
-======================
+===========================
+ PROJECTNAME Documentation
+===========================
+
+This is the documentation
 
 .. htmlonly::
 
@@ -12,8 +14,4 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   users/index
-   examples/index
-   devel/index
-   api/index
    
