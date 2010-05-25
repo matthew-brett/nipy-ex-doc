@@ -1,0 +1,13 @@
+============================
+ nipy example doc structure
+============================
+
+This is a tiny repo to show an example of a nipy community project doc
+structure.  It should compile (``cd doc && make html``).  To see what
+you might want to change for your own project, try ``grep -r PROJECTNAME
+*``
+
+It's likely you'll also want to change the ``PROJECTNAME.css`` file to
+make your project a bit more distinct.
+
+
